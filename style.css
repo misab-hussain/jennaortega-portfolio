@@ -1,0 +1,489 @@
+*{
+    font-family: "Sen", sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+nav{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+    margin: 30px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 1px 4px 13px black;
+}
+
+nav h1{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+   
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 234, 0);
+    
+    
+
+}
+
+
+
+.banner2{
+    
+    background-image: url(./peakpx-2.jpg); 
+    /* width: 100%;
+    height: 100%; */
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+     
+}
+.banner1{
+    
+    background-image: url(./greenbg.jpg); 
+    width: 100%;
+    height: 1050px;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+     
+}
+.banner{
+    
+    background-image: url(./peakpx.jpg); 
+    width: 100%;
+    height: 1050px;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+     
+}
+.banner3{
+    
+    background-image: url(./adidas.jpg); 
+    width: 100%;
+    height: 1050px;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+     
+}
+
+
+
+h2{
+color: white;
+font-size: 30px;
+padding-top:30px;
+text-align: center;
+}
+
+#about{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+    color: white;
+}
+
+.pic{
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+.pic img{
+    margin-top: 50px;
+    width:500px;
+    height: 550px;
+    border-radius: 5%;
+    margin-left: 20px;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
+}
+
+
+
+
+
+ 
+
+ .pic img:hover{
+    scale: 1.05;
+    box-shadow: 2px 3px 10px black;  
+    width: 550px;
+  height: 600px;
+
+    
+}
+
+/* .pic :hover{
+    opacity: 1;
+    filter: blur(3px);
+}   */
+
+.pic:hover .intro{
+    
+    opacity: 1px;
+    filter: blur(3px); 
+}
+
+.pic .intro:hover{
+    opacity: 1px;
+    filter: blur(0px);
+    /* transform: scale(1.1); */
+}
+
+
+.pic h3{
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.pic p{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.row img{
+    width: 280px;
+    height: 400px;
+    margin-left: 5px;
+    
+
+}
+
+.row{
+    
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    color: white;
+    
+    
+}
+
+
+
+#q7{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(16, 0, 138), purple ); 
+   
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q11{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(33, 45, 72),rgb(166, 0, 0) ); 
+  
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q12{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,grey, rgb(0, 129, 193) ); 
+   
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+
+#q13{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(255, 87, 20), rgb(112, 0, 0) ); 
+   
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q14{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(255, 168, 168) ); 
+  
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q15{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(122, 1, 104),rgb(255, 0, 123) ); 
+    
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q1{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(5, 117, 208) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q2{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(0, 107, 128) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q3{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(34, 4, 94) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q4{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(1, 66, 113) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q5{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(0, 57, 57),rgb(204, 27, 27) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q6{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(204, 0, 0), rgb(218, 76, 0) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q8{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(255, 255, 255) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q9{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(0, 74, 74) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+#q10{
+    height: 520px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(235, 149, 112) );
+    padding-bottom: 50px;
+    transition: all 0.2s;
+
+}
+
+
+
+.row:hover .col{
+    
+    opacity: 1px;
+    filter: blur(3px); 
+}
+
+.row .col:hover{
+    opacity: 1px;
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+
+    
+
+.row button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 0, 0);
+    border: 1px solid rgb(67, 0, 0);
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5%;
+    
+}
+
+.row button:hover{
+   
+    background-color: white;
+    color: rgb(68, 0, 0);
+    border: 1px solid white;
+    
+}
+
+.next img{
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+}
+
+#upcoming{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+padding-bottom: 50px;
+}
+#upcoming h2{
+    padding: 30px;
+}
+
+.next{
+    margin-left: 370px;
+    
+}
+
+#movies{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+}
+
+form{
+    width: 500px;
+    margin-left: 580px;
+    color: transparent;
+   background-color: transparent;
+    
+
+
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+    color: white;
+    background-color: transparent;
+
+
+
+}
+
+
+
+#contact{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+}
+
+#footer{ 
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 105, 88), rgb(0, 0, 0));
+    /* background-color: black; */
+    height: 100px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    padding-top: 25px;
+    line-height: 24px;
+
+    
+}
+
+#footer ul li a{
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+
+#movies h2{
+    color: white;
+}
+
+hr {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(100, 13, 13), rgb(255, 255, 255));
+    height:1px;
+    margin: 0;
+    padding: 0;
+  }
